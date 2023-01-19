@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class WaypointFollow : MonoBehaviour
 {
-
     public GameObject[] waypoints;
     int currentWP = 0;
     float speed = 4.0f;
@@ -40,7 +39,5 @@ public class WaypointFollow : MonoBehaviour
         }
 
         this.transform.Translate(0, 0, speed * Time.deltaTime);
-
-    
     }
 }
